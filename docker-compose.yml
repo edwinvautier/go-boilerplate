@@ -9,7 +9,7 @@ services:
       - 8000:8000 
     restart: on-failure
     volumes:
-      - ./:/go/src/github.com/edwinvautier/go-bot
+      - ./:/go/src/github.com/edwinvautier/go-boilerplate
     depends_on:
       - postgres          
     networks:
