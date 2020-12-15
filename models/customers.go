@@ -11,7 +11,7 @@ import (
 type Customer struct {
 	ID             uint64 `gorm:"primary_key"`
 	Name           string `gorm:"size:255"`
-	Email          string `gorm:"size:255"`
+	Email          string `gorm:"size:255; unique"`
 	HashedPassword string
 }
 

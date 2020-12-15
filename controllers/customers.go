@@ -37,3 +37,7 @@ func CreateCustomer(c *gin.Context) {
 
 	c.JSON(http.StatusOK, models.CustomerJSON{ID: customer.ID, Name: customer.Name, Email: customer.Email})
 }
+
+func TestController(c *gin.Context) {
+	c.JSON(http.StatusOK, "OKKKKKK")
+}

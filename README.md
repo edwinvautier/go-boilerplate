@@ -25,10 +25,9 @@ Update your environment. Create a `.env` file thanks to the `.env.dist` example.
 
 build app :
 
-```sha
+```sh
     docker-compose up --build
 ```
-
 
 ## Branch naming convention
 
