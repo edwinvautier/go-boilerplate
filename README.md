@@ -1,13 +1,34 @@
 # go-boilerplate
+
 A go boilerplate with docker-compose with hot reload, postgres, orm, github templates, license...
 
-## setup
+## Setup
 
 Modify the `docker/go/Dockerfile` file and set the following line with the correct repository name :
 
 `WORKDIR /go/src/github.com/edwinvautier/go-bot`
 
 Do the same in the `docker-compose.yml` inside the api volumes part.
+
+## Project setup 
+
+Generate RSA keys for the token authentication :
+
+```sh
+    # use the following password: private_key
+    openssl genrsa -des3 -out private.pem 2048
+    openssl rsa -in private.pem -outform PEM -pubout -out public.pem
+
+```
+
+Update your environment. Create a `.env` file thanks to the `.env.dist` example.
+
+build app :
+
+```sha
+    docker-compose up --build
+```
+
 
 ## Branch naming convention
 
