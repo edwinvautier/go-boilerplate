@@ -3,6 +3,7 @@ module github.com/edwinvautier/go-boilerplate
 go 1.15
 
 require (
+	github.com/asaskevich/govalidator v0.0.0-20200907205600-7a23bdc65eef
 	github.com/caarlos0/env v3.5.0+incompatible
 	github.com/caarlos0/env/v6 v6.4.0
 	github.com/gin-gonic/gin v1.6.3

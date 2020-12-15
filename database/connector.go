@@ -11,7 +11,8 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 )
 
-var db *gorm.DB
+// Db is the database object
+var Db *gorm.DB
 
 // Config is the structure used to load db credentials from the environment.
 type Config struct {
@@ -45,7 +46,7 @@ func Init(cfg Config) error {
 		return err
 	}
 
-	db = tmpDb
+	Db = tmpDb
 	log.Info("Connected to database!")
 
 	return nil
