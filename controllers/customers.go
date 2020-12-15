@@ -35,5 +35,5 @@ func CreateCustomer(c *gin.Context) {
 		return
 	}
 
-	c.JSON(http.StatusOK, customer)
+	c.JSON(http.StatusOK, models.CustomerJSON{ID: customer.ID, Name: customer.Name, Email: customer.Email})
 }
