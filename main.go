@@ -6,7 +6,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/caarlos0/env/v6"
+	"github.com/caarlos0/env"
 	"github.com/edwinvautier/go-boilerplate/database"
 	"github.com/edwinvautier/go-boilerplate/helpers"
 	"github.com/edwinvautier/go-boilerplate/routes"
