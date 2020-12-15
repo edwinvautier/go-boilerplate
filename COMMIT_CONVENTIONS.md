@@ -10,25 +10,17 @@ The `Message` should not be confused with git commit message.
 
 The `Tag` is one of the following:
 
-- `Build:`-> Changes that affect the build system or external dependencies (docker, npm, make…)
+- `build:`-> Changes that affect the build system or external dependencies (docker, npm, make…)
 
-- `CI:`-> Changes concerning the integration or configuration files and scripts (Travis, Ansible, BrowserStack ...)
+- `feat:`-> Added new functionality
 
-- `Feat:`-> Added new functionality
+- `fix:`-> Bug fix
 
-- `Fix:`-> Bug fix
+- `refactor:`-> Modifications which brings neither new functionality nor performance improvement
 
-- `Perf:`-> Performance improvement
+- `docs:`-> Writing or updating documentation
 
-- `Refactor:`-> Modifications which brings neither new functionality nor performance improvement
-
-- `Style:`-> Changes that brings no functional or semantic alteration (indentation, formatting, adding space, renaming of a variable ...)
-
-- `Upgrade:`-> Internal dependency upgrade
-
-- `Docs:`-> Writing or updating documentation
-
-- `Test:`-> Adding or modifying tests
+- `test:`-> Adding or modifying tests
 
 - The `scope` should define the context of the affected changes.
 
@@ -37,7 +29,6 @@ The `Tag` is one of the following:
 Examples:
 
 ```
-Feat (frontend): Added /category route to access images by category.
-Fix (database): Added migration to correct category structure.
-CI (backend): Added linter tests
+feat (frontend): Added /category route to access images by category.
+fix (database): Added migration to correct category structure.
 ```
