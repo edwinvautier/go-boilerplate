@@ -1,5 +1,7 @@
 # go-boilerplate
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9f068e80047c476ea1b51a37537b1b2e)](https://app.codacy.com/gh/edwinvautier/go-boilerplate?utm_source=github.com&utm_medium=referral&utm_content=edwinvautier/go-boilerplate&utm_campaign=Badge_Grade_Settings)
+
 A go boilerplate with docker-compose with hot reload, postgres, orm, github templates, license...
 
 ## Setup
