@@ -12,7 +12,7 @@ Modify the `docker/go/Dockerfile` file and set the following line with the corre
 
 Do the same in the `docker-compose.yml` inside the api volumes part.
 
-## Project setup 
+## Project setup
 
 Generate RSA keys for the token authentication :
 

@@ -2,7 +2,6 @@
 
 Brieve description of the merge request.
 
-
 **Changes made :**
 
 - [ ] ex: add better setup instructions in the README
