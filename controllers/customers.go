@@ -24,9 +24,9 @@ func CreateCustomer(c *gin.Context) {
 	}
 
 	// Create customer object and persist it to db
-	customer := models.Customer {
-		Name: customerForm.Name,
-		Email: customerForm.Email,
+	customer := models.Customer{
+		Name:           customerForm.Name,
+		Email:          customerForm.Email,
 		HashedPassword: services.HashPassword(customerForm.Password),
 	}
 
