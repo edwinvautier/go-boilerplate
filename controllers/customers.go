@@ -38,6 +38,7 @@ func CreateCustomer(c *gin.Context) {
 	c.JSON(http.StatusOK, models.CustomerJSON{ID: customer.ID, Name: customer.Name, Email: customer.Email})
 }
 
+// TestController is a simple controller to test if the API is alive when you go on your web browser at API root
 func TestController(c *gin.Context) {
 	c.JSON(http.StatusOK, "OKKKKKK")
 }
